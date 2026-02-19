@@ -12,7 +12,8 @@ A lightweight, high-performance music player built with **Python**, **PyQt6**, a
 * **Broad Format Support**: Plays `.mp3`, `.flac`, and `.opus` files.
 * **Linux Integration**: Includes a script to generate a `.desktop` entry for your application menu.
 
-**Preview**:
+***Preview***:
+
 <img width="598" height="239" alt="image" src="https://github.com/user-attachments/assets/316089da-65cd-4ad6-a90a-8cfd7bf8a0bc" />
 
 In my application launcher (wofi):
