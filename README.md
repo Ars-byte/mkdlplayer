@@ -57,7 +57,9 @@ chmod +x start.sh
 ./start.sh
 ```
 
+**Preview in steamdeck:**
 
+<img width="1680" height="1050" alt="image" src="https://github.com/user-attachments/assets/df0eaa10-f5d0-4a5e-848d-14b1efa85245" />
 
 
 ### 2. Setup & Desktop Entry
@@ -97,4 +99,4 @@ The application have Drp :3
 
 ---
 
-Developed by: Ars-byte and Franckey02 :)
+Developed by: Ars-byte, Franckey and Selvin :)
