@@ -16,7 +16,8 @@ A lightweight, high-performance music player built with **Python**, **PyQt6**, a
 
 <img width="598" height="239" alt="image" src="https://github.com/user-attachments/assets/316089da-65cd-4ad6-a90a-8cfd7bf8a0bc" />
 
-In my application launcher (wofi):
+
+***In my application launcher (wofi)***:
 
 <img width="579" height="321" alt="image" src="https://github.com/user-attachments/assets/fa649911-d0a7-404f-8dba-7fcd70bff5a7" />
 
