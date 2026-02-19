@@ -39,6 +39,27 @@ or
 pip install -r requirements.txt
 
 ```
+
+## NOTE for steamdecks users
+
+Execute the commands:
+```bash
+chmod +x steamdeck_fix.sh
+```
+```bash
+./steamdeck_fix.sh
+```
+
+```bash
+chmod +x start.sh
+```
+```bash
+./start.sh
+```
+
+
+
+
 ### 2. Setup & Desktop Entry
 
 To integrate the player into your Linux application menu, run the provided setup script:
@@ -50,6 +71,7 @@ chmod +x add-to-path.sh
 ```
 
 This script detects your project path and creates a `mkdlplayer.desktop` file in `~/.local/share/applications/`.
+
 
 ## 🎮 Discord Rich Presence 
 
