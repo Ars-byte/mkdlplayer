@@ -2,7 +2,7 @@ import sys, os, pygame, time
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QVBoxLayout, QWidget, 
                              QFileDialog, QLabel, QHBoxLayout, QSlider, QPushButton)
 from PyQt6.QtCore import Qt, QTimer
-from PyQt6.QtGui import QIcon # Nueva importación para el icono
+from PyQt6.QtGui import QIcon
 from pypresence import Presence
 
 class MKDLPlayer(QMainWindow):
@@ -50,7 +50,7 @@ class MKDLPlayer(QMainWindow):
             self.RPC.update(
                 details=track,
                 state=state,
-                large_image="logo", # Debe llamarse así en el Discord Developer Portal
+                large_image="logo",
                 large_text="mkdlplayer",
                 start=start_t
             )
@@ -60,7 +60,7 @@ class MKDLPlayer(QMainWindow):
         self.setWindowTitle('mkdlplayer')
         self.setFixedSize(600, 240)
         
-        # CARGAR LOGO LOCAL: Ajusta la ruta si tu carpeta se llama distinto
+        
         icon_path = os.path.join("assets", "logo.png")
         if os.path.exists(icon_path):
             self.setWindowIcon(QIcon(icon_path))
